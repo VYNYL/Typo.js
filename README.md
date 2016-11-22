@@ -1,5 +1,11 @@
 Typo.js is a JavaScript spellchecker that uses Hunspell-style dictionaries.
 
+Why a fork?
+===========
+This package has been forked to follow standard convention of package.json being in the repository root.
+This resolves the original issue of `fs` being loaded in the browser as a new release has not been made.
+A pull request will be submitted to the original package at https://github.com/cfinke/Typo.js
+
 Usage
 =====
 
